@@ -1,0 +1,129 @@
+
+body {
+   
+	background-image: url("back6.png");
+	 background-repeat: repeat;
+ background-attachment: fixed;
+  background-size: 100% 100%;
+
+	font-size:20px;
+    
+}
+
+h1{
+	color:white;
+	text-align:center;
+	font-size:50px;
+	
+	
+}
+
+
+#nav {
+	
+	font-size:25px;
+	font-weight:bold;
+	height:64px;
+	
+
+}
+
+#nav ul {
+	padding:0px;
+	margin:0px;
+	border: none;
+	list-style-type:none;
+	text-align:right;	
+	
+}
+
+#nav li {
+	display:inline;
+	padding:50px;
+
+	vertical-align:middle;
+	
+}
+
+#main{
+	border: 4px outset purple;
+	background-color:white;
+	width:400px;
+    height:40px;
+    line-height:40px;
+	display: table; 
+	text-align:center;
+	margin:auto;
+	margin-top:50px;
+	
+  
+}
+
+#headline{
+ margin-top:8px;
+ text-align:center;	
+ font-size:25px;
+ color:darkblue;
+ border-bottom:1px solid black;
+}
+
+#stockname{
+	text-align:center;
+	color:blue;
+	font-size:50px;
+	padding:0px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.btn{
+	background-color:#ffffff;
+	display: table-cell;
+	margin-bottom:5px;
+	margin-top:5px;
+	padding:7px;
+	width:95%;
+	font-size:18px;
+	font-family:bold;
+}
+
+.btn:hover{
+	background-color:#01C200;
+}
+.btn2{
+	background-color:#ffffff;
+	display: table-cell;
+	margin-bottom:1px;
+	margin-top:1px;
+	padding:3px;
+	width:55%;
+	font-size:18px;
+	font-family:bold;
+}
+
+.btn2:hover{
+	background-color:#01C200;
+}
+
+#copyright{
+	position: absolute;
+    bottom: 10px;
+    width: 50%;
+	margin-left:0px;
+	margin-bottom:0px;
+	font-size:15px;
+	color:white;
+}
+
+#QR{
+width:300px;
+height:300px;
+margin:auto;
+display: table; 
+}
+
+#quote{
+	color:red;
+	text-align:center;
+	font-size:30px;
+}
